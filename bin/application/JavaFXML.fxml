@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?language javascript?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" styleClass="root" stylesheets="application/application.css">
+	<fx:script>
+ 		function reactToClick() {
+ 			label1.setText("Button clicked! Welcome to CS 3035!");
+ 		}
+ 	</fx:script>
+	<top>
+        <Label text="Hello World!" fx:id="label1"/>
+    </top>
+    <button>
+    	<Label text="Click Me!" fx:id="button1" />
+    </button>
+</BorderPane>
+
